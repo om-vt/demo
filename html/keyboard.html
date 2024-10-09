@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keyboard</title>
+    <style>
+        #outer{
+            height: 300px;
+            width: 1000px;
+            border: 2px solid black;
+            margin: 10px auto;
+        }
+        #alpha{
+            height:100%;
+            width: 795px;
+            border: 2px solid black;
+            float: left;
+            /* outline: 2px double blue; */
+
+        }
+        #number{
+            height: 100%;
+            min-width: 198px;
+            float: left;
+            border: 2px solid black;
+            background-color: black;
+        }
+        #column{
+            height:50px;
+            width:800px ;
+            text-align:center;
+            background-color: rgb(12, 12, 12);
+           
+            
+            
+        }
+        #row{
+            height:40px;
+            width:42px;
+            border:1px solid black;
+            float: left;
+            margin: 3px;
+            border-radius: 10px;
+            background-color: antiquewhite;
+            color: black;
+            box-shadow: 4px 4px 4px gray;
+
+            
+
+
+        }
+        span{
+            padding: 10PX 10PX;
+        }
+        /* #ROW1{
+            height:40px;
+           width:42px;
+            border:1px solid black;
+            float: left;
+            border-radius: 10px;
+        } */
+        #number-row{
+            height: 100%;
+            width: 23.3%;
+            border: 2px solid black;
+            float: left;
+            color: rgb(19, 18, 18);
+            box-shadow: 4px 4px 4px gray;
+            background-color: white;
+        }
+        #number-column{
+            height: 15.5% ;
+            width: 100%;
+            border: 2px solid black;
+            text-align: center;
+            color: rgb(19, 18, 18);
+            box-shadow: 4px 4px 4px gray;
+            background-color: antiquewhite;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="outer">
+        <div id="alpha">
+            <div id="column">
+                <div id="row"><span>ESC</span></div>
+                <div id="row">F1</div>
+                <div id="row">F2</div>
+                <div id="row">F3</div>
+                <div id="row">F4</div>
+                <div id="row">F5</div>
+                <div id="row">F6</div>
+                <div id="row">F7</div>
+                <div id="row">F8</div>
+                <div id="row">F9</div>
+                <div id="row">F10</div>
+                <div id="row">F11</div>
+                <div id="row">F12</div>
+                <div id="row">PRT SC</div>
+                <div id="row">ꝋ</div>
+                <div id="row">Del</div>
+            </div>
+            <div id="column">
+                <div id="row">`</div>
+                <div id="row">1</div>
+                <div id="row">2</div>
+                <div id="row">3</div>
+                <div id="row">4</div>
+                <div id="row">5</div>
+                <div id="row">6</div>
+                <div id="row">7</div>
+                <div id="row">8</div>
+                <div id="row">9</div>
+                <div id="row">0</div>
+                <div id="row">-</div>
+                <div id="row">+</div>
+                <div id="row" style="width:139px;">BKSP</div>
+                
+            </div>
+            <div id="column">
+                <div id="row" style="width: 89px;">TAB</div>
+                <div id="row">Q</div>
+                <div id="row">W</div>
+                <div id="row">E</div>
+                <div id="row">R</div>
+                <div id="row">T</div>
+                <div id="row">Y</div>
+                <div id="row">U</div>
+                <div id="row">I</div>
+                <div id="row">O</div>
+                <div id="row">P</div>
+                <div id="row">[</div>
+                <div id="row">]</div>
+                <div id="row"  style="width: 100px;">\</div>
+                
+            </div>
+            <div id="column">
+                <div id="row" style="width: 120px;">CAPS</div>
+                <div id="row">A</div>
+                <div id="row">S</div>
+                <div id="row">D</div>
+                <div id="row">F</div>
+                <div id="row">G</div>
+                <div id="row">H</div>
+                <div id="row">J</div>
+                <div id="row">K</div>
+                <div id="row">L</div>
+                <div id="row">:</div>
+                <div id="row">'</div>
+                <div id="row" style="width: 113Px;">ENTER</div>
+                
+            </div>
+            <div id="column">
+                <div id="row" style="width: 140px;">SHIFT</div>
+                <div id="row">Z</div>
+                <div id="row">X</div>
+                <div id="row">C</div>
+                <div id="row">V</div>
+                <div id="row">B</div>
+                <div id="row">N</div>
+                <div id="row">M</div>
+                <div id="row">,</div>
+                <div id="row">.</div>
+                <div id="row">/</div>
+                <div id="row" style="width: 148px;">SHIFT</div>
+                </div>
+            <div id="column">
+                <div id="row">CTRL</div>
+                <div id="row">FN</div>
+                <div id="row">⊞</div>
+                <div id="row">ALT</div>
+                <div id="row" style="width: 296px;">SAPACE</div>
+                <div id="row">ALT</div>
+                <div id="row">CTRL</div>
+                <div id="row">←</div>
+                <div id="row">↑</div>
+                <div id="row">↓</div>
+                <div id="row">→</div>
+                
+            </div>
+        </div>
+        
+        <div id="number">
+            <div id="number-row">
+                <div id="number-column">home</div>
+                <div id="number-column">num lock</div>
+                <div id="number-column">7</div>
+                <div id="number-column">4</div>
+                <div id="number-column">1</div>
+                <div id="number-column">0</div>
+            </div>
+            <div id="number-row">
+                <div id="number-column">end</div>
+                <div id="number-column">/</div>
+                <div id="number-column">8</div>
+                <div id="number-column">5</div>
+                <div id="number-column">2</div>
+                <div id="number-column">del</div>
+            </div>
+            <div id="number-row">
+                <div id="number-column">pg up</div>
+                <div id="number-column">*</div>
+                <div id="number-column">9</div>
+                <div id="number-column">6</div>
+                <div id="number-column">3</div>
+                <div id="number-column">.</div>
+             </div>
+            <div id="number-row">
+                <div id="number-column">PG DN</div>
+                <div id="number-column">-</div>
+                <div id="number-column">+</div>
+                <div id="number-column" style="height: 10px;">┘</div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
